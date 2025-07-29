@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form th:action="@{/submit}" method="post">
+<!--         ID: <input type="text" name="id" /><br/>
+ --> 
+        Name: <input type="text" name="name" /><br/>
+        City: <input type="text" name="city" /><br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
